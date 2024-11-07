@@ -1,1 +1,15 @@
-
+name: RNA-seq
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.8
+  - perl
+  - emboss
+  - fastqc
+  - trimmomatic
+  - star
+  - stringtie
+  - samtools
+  - bedtools
